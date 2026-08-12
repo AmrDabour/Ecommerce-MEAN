@@ -11,14 +11,41 @@
 
 ---
 
-## 🌟 Features
+## 🌟 Advanced & Enterprise-Grade Features
 
-- **World-Class Frontend (Angular v21):** Premium design, smooth transitions, dark mode, 3D hover effects, and a seamlessly integrated Checkout & Cart drawer.
-- **AI Chatbot Microservice:** A sleek glassmorphic bubble with an AI Chat interface powered by a dedicated Python backend (FastAPI/Transformers).
-- **RESTful API Backend:** Built with Express, Node.js, and MongoDB. Handles robust authentication, products, dynamic cart & coupon logic, and stripe-integrated orders.
-- **Advanced Monitoring:** Out-of-the-box infrastructure monitoring utilizing Prometheus and Grafana dashboards for server metrics (Node Exporter) and container performance (cAdvisor).
-- **Background Processing:** Celery + RabbitMQ + Redis orchestrating asynchronous tasks for the AI engine.
-- **Containerized Stack:** Fully orchestrated with Docker Compose for seamless 1-click deployments.
+We didn't just build an e-commerce platform; we engineered a highly scalable, intelligent, and premium shopping experience. Here is what makes this project stand out:
+
+### 🎨 Next-Generation Frontend (Angular v21)
+- **Ultra-Modern UI/UX:** Premium aesthetic featuring glassmorphism, dark mode, dynamic styling, and immersive 3D hover effects.
+- **Immersive Visuals & UX:** Parallax hero sections, custom interactive cursors, tilt effects, and skeleton loading screens for flawless perceived performance.
+- **High Performance:** Built with Angular Standalone Components, Signals, and lazy-loaded modules for blazing-fast page loads.
+- **Progressive Web App (PWA):** Offline support, service workers, and Web Push notifications for native-like mobile experiences.
+- **Real-Time Interactivity:** Seamless WebSocket (Socket.io) integration for live chat, instant notifications, and real-time order tracking.
+- **Advanced Shopping Tools:** Dedicated Product Compare pages, beautifully integrated slide-out Cart & Checkout, and Wishlist management.
+
+### 🧠 AI-Powered Microservice Engine
+- **Dedicated Python Backend:** A separate FastAPI microservice utilizing state-of-the-art NLP Transformers for intelligent operations.
+- **Asynchronous ML Processing:** Heavy machine learning tasks are offloaded using **Celery & RabbitMQ**, ensuring massive scalability.
+- **Smart Chatbot:** A sleek, context-aware AI assistant floating UI to guide users and answer queries 24/7.
+- **Intelligent Recommendations:** Smart product recommendations tailored to user behavior.
+
+### ⚙️ Robust Backend Core
+- **Scalable REST API:** Node.js & Express.js core handling massive throughput with optimized architecture.
+- **Advanced E-Commerce Logic:** Product Variants, precise Stock/Inventory Management, Order Tracking, dynamic pricing, gift cards, and referral systems.
+- **Enterprise Security:** Multi-layered defense with Security Headers (Helmet), Rate Limiting, CORS, JWT, and Google OAuth 2.0 (Social Login).
+- **High-Speed Object Storage:** S3-compatible **MinIO** integration (via AWS SDK & Multer) for optimized, scalable, and self-hosted media uploads.
+- **Distributed Caching & Queues:** Redis for ultra-fast query caching and BullMQ for reliable background jobs (automated emails, crons).
+- **Seamless Payments:** Fully integrated, secure, and SCA-compliant Stripe payment gateway.
+
+### 📊 Comprehensive Admin & Analytics
+- **Powerful Admin Dashboard:** A beautifully crafted control panel to manage Products, Users, Orders, Coupons, and Reviews.
+- **Data Visualization:** Real-time business intelligence and sales metrics powered by Chart.js.
+
+### 🚀 DevOps & Observability
+- **1-Click Containerization:** Entire ecosystem orchestrated seamlessly via Docker Compose (Dev & Prod environments) with advanced Healthchecks.
+- **CI/CD & Automated Security:** Robust pipelines for automated testing, **CodeQL Security Scanning**, and continuous delivery.
+- **Infrastructure Monitoring:** Out-of-the-box observability with **Prometheus**, **Grafana**, **Node Exporter**, and **cAdvisor**.
+- **Proactive Error Tracking:** Integrated **Sentry** (Frontend & Node.js) for real-time bug tracking and performance monitoring.
 
 ## 🛠️ Tech Stack
 
